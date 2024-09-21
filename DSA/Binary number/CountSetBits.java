@@ -1,3 +1,8 @@
+// Input: A = 10, B = 20
+// Output: 4
+// Explanation: Binary representation of A is 00001010
+// Binary representation of B is 00010100
+// We need to flip highlighted four bits in A to make it B.
 import java.util.*;
 public class CountSetBits{
     public static int countSetBits(int a, int b){
